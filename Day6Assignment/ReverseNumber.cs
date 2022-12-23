@@ -6,7 +6,7 @@ namespace Day6Assignment
     {
         public static void reverse()
         {
-            System.Console.Write("Enter a number : ");
+            Console.Write("Enter a number : ");
             int n = Convert.ToInt32(Console.ReadLine());
             int rev =0, num = n; 
 
