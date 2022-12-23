@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+using System.Diagnostics;
 
 namespace Day6Assignment
 {
@@ -6,6 +7,10 @@ namespace Day6Assignment
     {
         static void Main(string[] args)
         {
+            Stopwatch stopWatch = new Stopwatch();
+
+            stopWatch.Start();
+
             Console.WriteLine("1). Fibonacci series  2). Perfect Number  3). Prime Number  4). Reverse a Number");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -26,6 +31,12 @@ namespace Day6Assignment
 
 
             }
+
+            stopWatch.Stop();
+
+            int time = (int)stopWatch.ElapsedMilliseconds;
+
+            System.Console.WriteLine($"Elaspsed time is {time}");
         }
     }
 }
