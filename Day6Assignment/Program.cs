@@ -11,7 +11,7 @@ namespace Day6Assignment
 
             stopWatch.Start();
 
-            Console.WriteLine("1). Fibonacci series  2). Perfect Number  3). Prime Number  4). Reverse a Number");
+            Console.WriteLine("1). Fibonacci series  2). Perfect Number  3). Prime Number  4). Reverse a Number  5). Coupon Numbers");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -27,6 +27,9 @@ namespace Day6Assignment
                     break;
                 case 4:
                     Reverse.reverse();
+                    break;
+                case 5:
+                    CouponNumbers.couponNumbers();
                     break;
 
 
