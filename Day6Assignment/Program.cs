@@ -13,7 +13,7 @@ namespace Day6Assignment
 
             Console.WriteLine("1). Fibonacci series  2). Perfect Number  3). Prime Number  4). Reverse a Number  5). Coupon Numbers");
             System.Console.WriteLine("6). Vending Machine 7). Days of week  8). Temprature Conversion  9). Monthly payment  10).Sqaure roots");
-            System.Console.WriteLine("11). Decimal To Binary");
+            System.Console.WriteLine("11). Decimal To Binary   12). Binary To Decimal");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -50,6 +50,9 @@ namespace Day6Assignment
                     break;
                 case 11:
                     toBinary.Binary();
+                    break;
+                case 12:
+                    toDecimal.Decimal();
                     break;
 
 
