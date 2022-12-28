@@ -12,7 +12,7 @@ namespace Day6Assignment
             stopWatch.Start();
 
             Console.WriteLine("1). Fibonacci series  2). Perfect Number  3). Prime Number  4). Reverse a Number  5). Coupon Numbers");
-            System.Console.WriteLine("6). Vending Machine");
+            System.Console.WriteLine("6). Vending Machine 7). Days of week");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -34,6 +34,9 @@ namespace Day6Assignment
                     break;
                 case 6:
                     VendingMachine.change();
+                    break;
+                case 7:
+                    DayOfWeek.Days();
                     break;
 
 
